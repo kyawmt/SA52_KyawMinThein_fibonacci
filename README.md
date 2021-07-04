@@ -20,12 +20,12 @@ Part2: Run from Docker Container
 1. Run the project as "Maven Install" to get the jar file
 2. Go to the app folder and open command prompt in that folder
 3. docker build -t backend.jar .
-1. Go to "/frontend" folder
-2. In command prompt, type the following
-3. docker build -t frontend .
+4. Go to "/frontend" folder
+5. In command prompt, type the following
+6. docker build -t frontend .
 
 Now, the two docker images have been created.
 
-4. Go to application folder and type the following in the command prompt
-5. docker-compose up
-6. Go to http://localhost:3000/fibonacci, the application is already running.
+7. Go to application folder and type the following in the command prompt
+8. docker-compose up
+9. Go to http://localhost:3000/fibonacci, the application is already running.
