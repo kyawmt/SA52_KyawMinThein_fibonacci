@@ -2,7 +2,7 @@ version: "3.8"
 services: 
   backend:
     image: "backend.jar"
-    container_name: "backend"
+    container_name: "backend.jar"
     ports:
       - "8080:8080"
  
