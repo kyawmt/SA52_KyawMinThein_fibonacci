@@ -11,6 +11,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import sg.edu.iss.fibonacci.service.FibService;
 
+//For deploy on Oracle Cloud
+//@CrossOrigin(origins = "http://168.138.8.198:3000")
 @CrossOrigin(origins = "http://localhost:3000")
 @RestController
 public class FibController {
