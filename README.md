@@ -25,6 +25,7 @@ Part2: Run from Docker Container
 3. docker build -t frontend .
 
 Now, the two docker images have been created.
+
 4. Go to application folder and type the following in the command prompt
 5. docker-compose up
 6. Go to http://localhost:3000/fibonacci, the application is already running.
