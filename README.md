@@ -23,6 +23,7 @@ Part2: Run from Docker Container
 1. Go to "/frontend" folder
 2. In command prompt, type the following
 3. docker build -t frontend .
+
 Now, the two docker images have been created.
 4. Go to application folder and type the following in the command prompt
 5. docker-compose up
